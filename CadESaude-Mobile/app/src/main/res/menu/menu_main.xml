@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.jucemar_dimon.cadesaude.MainActivity">
+
+    <item
+        android:id="@+id/action_configuracoes"
+        android:orderInCategory="100"
+        android:title="@string/action_configuracoes"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ajuda"
+        android:orderInCategory="100"
+        android:title="@string/action_Ajuda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_sobre"
+        android:orderInCategory="100"
+        android:title="@string/action_sobre"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_magnify_white_24dp"
+        android:iconifiedByDefault="true"
+        android:orderInCategory="100"
+        android:title="search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+</menu>

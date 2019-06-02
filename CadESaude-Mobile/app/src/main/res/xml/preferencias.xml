@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/titulo_config">
+
+    <PreferenceCategory android:title="Municípios">
+        <MultiSelectListPreference
+            android:defaultValue="@array/municipios_preferidos_default"
+            android:dialogTitle="@string/municipios_dialog_title"
+            android:entries="@array/nomes_municipios_view"
+            android:entryValues="@array/codigos_municipios"
+            android:key="@string/pref_municipios_preferidos_key"
+            android:selectable="true"
+            android:summary="@string/municipios_preferidos_subtitulo"
+            android:title="@string/municipios_preferidos_titulo" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Estabelecimentos">
+        <br.com.jucemar_dimon.cadesaude.SeekBarPreference
+            android:defaultValue="1"
+            android:key="@string/pref_distancia_estabelecimentos_key" />
+    </PreferenceCategory>
+
+    <br.com.jucemar_dimon.cadesaude.InfoPreference
+        android:enabled="false"
+        android:key="@string/pref_info_key"
+        android:selectable="false" />
+
+</PreferenceScreen>

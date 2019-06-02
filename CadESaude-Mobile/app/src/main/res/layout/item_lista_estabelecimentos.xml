@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="2dp"
+    android:background="@drawable/selector"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="8dp"
+    android:paddingTop="8dp">
+
+    <TextView
+        android:id="@+id/nome_fantasia_lista_busca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/flag_favorito"
+        android:layout_toStartOf="@+id/flag_favorito"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:text="Nome fantasia"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/primary_text" />
+
+    <TextView
+        android:id="@+id/tipo_estab_lista_busca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nome_fantasia_lista_busca"
+        android:layout_marginBottom="5dp"
+        android:layout_toLeftOf="@+id/flag_fone"
+        android:layout_toStartOf="@+id/flag_fone"
+        android:gravity="center_vertical"
+        android:lines="2"
+        android:text="Tipo de estabelecimento"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/secondary_text" />
+
+    <TextView
+        android:id="@+id/bairro_lista_busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/tipo_estab_lista_busca"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/tipo_estab_lista_busca"
+        android:layout_below="@+id/tipo_estab_lista_busca"
+        android:layout_marginBottom="5dp"
+        android:text="Bairro"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/secondary_text" />
+
+    <TextView
+        android:id="@+id/municipio_lista_busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/bairro_lista_busca"
+        android:text="Cidade"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/secondary_text" />
+
+    <TextView
+
+        android:id="@+id/distancia_lista_busca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/municipio_lista_busca"
+        android:layout_alignBottom="@+id/municipio_lista_busca"
+        android:layout_toLeftOf="@+id/flag_gps"
+        android:layout_toStartOf="@+id/flag_gps"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <ImageButton
+        android:id="@+id/flag_favorito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/nome_fantasia_lista_busca"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:src="@drawable/ic_star_outline_grey600_24dp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/flag_fone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flag_favorito"
+        android:layout_alignStart="@+id/flag_favorito"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:src="@drawable/ic_phone_grey600_24dp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/flag_gps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/flag_fone"
+        android:layout_alignStart="@+id/flag_fone"
+        android:layout_below="@+id/tipo_estab_lista_busca"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:src="@drawable/ic_crosshairs_gps_grey600_24dp"
+        android:visibility="visible" />
+
+</RelativeLayout>

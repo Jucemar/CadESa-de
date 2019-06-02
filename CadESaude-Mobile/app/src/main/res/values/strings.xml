@@ -1,0 +1,1271 @@
+<resources>
+    <string name="app_name">CadESaúde</string>
+
+    <!-- Valores para as opções de menu principal-->
+    <string name="action_configuracoes">Configurações</string>
+    <string name="action_sobre">Sobre</string>
+    <string name="action_Ajuda">Ajuda</string>
+    <string name="titulo_config">Configurações</string>
+    <string name="titulo_ajuda">Ajuda</string>
+    <string name="titulo_sobre">Sobre</string>
+
+    <!-- Valores para as preferências do aplicativo-->
+    <string name="pref_municipios_preferidos_key">municipios_preferídos</string>
+    <string name="pref_distancia_estabelecimentos_key">distancia_estabelecimentos</string>
+    <string name="pref_info_key">info</string>
+    <string name="pref_estabelecimentos_favoritos_key">estabelecimentos_favoritos</string>
+    <string name="pref_estabelecimentos_favoritos_file">favoritos</string>
+    <string name="municipios_preferidos_titulo">Municípios escolhidos:</string>
+    <string name="distancia_estabelecimentos_titulo">Distância mostrada:</string>
+    <string name="municipios_preferidos_subtitulo">Não há municípios selecionados</string>
+    <string name="municipios_dialog_title">selecione os municípios</string>
+    <string name="distancia_title_seekbar">Selecione a distância máxima</string>
+    <string-array name="municipios_preferidos_default" />
+
+
+    <string-array name="codigos_municipios">
+        <item>420005</item>
+        <item>420010</item>
+        <item>420020</item>
+        <item>420030</item>
+        <item>420040</item>
+        <item>420050</item>
+        <item>420055</item>
+        <item>420060</item>
+        <item>420070</item>
+        <item>420075</item>
+        <item>420080</item>
+        <item>420090</item>
+        <item>420100</item>
+        <item>420110</item>
+        <item>420120</item>
+        <item>420125</item>
+        <item>420127</item>
+        <item>420130</item>
+        <item>420140</item>
+        <item>420150</item>
+        <item>420160</item>
+        <item>420165</item>
+        <item>420170</item>
+        <item>420180</item>
+        <item>420190</item>
+        <item>420195</item>
+        <item>420205</item>
+        <item>420200</item>
+        <item>420207</item>
+        <item>421280</item>
+        <item>422000</item>
+        <item>420208</item>
+        <item>420209</item>
+        <item>420210</item>
+        <item>420213</item>
+        <item>420215</item>
+        <item>420220</item>
+        <item>420230</item>
+        <item>420240</item>
+        <item>420243</item>
+        <item>420250</item>
+        <item>420253</item>
+        <item>420257</item>
+        <item>420260</item>
+        <item>420245</item>
+        <item>420270</item>
+        <item>420280</item>
+        <item>420285</item>
+        <item>420287</item>
+        <item>420290</item>
+        <item>420300</item>
+        <item>420310</item>
+        <item>420315</item>
+        <item>420320</item>
+        <item>420330</item>
+        <item>420340</item>
+        <item>420350</item>
+        <item>420360</item>
+        <item>420370</item>
+        <item>420380</item>
+        <item>420325</item>
+        <item>420390</item>
+        <item>420395</item>
+        <item>420400</item>
+        <item>420410</item>
+        <item>420415</item>
+        <item>420417</item>
+        <item>420419</item>
+        <item>420420</item>
+        <item>420425</item>
+        <item>420430</item>
+        <item>420435</item>
+        <item>420440</item>
+        <item>420445</item>
+        <item>420455</item>
+        <item>420450</item>
+        <item>420460</item>
+        <item>420470</item>
+        <item>420475</item>
+        <item>420480</item>
+        <item>420490</item>
+        <item>420500</item>
+        <item>420510</item>
+        <item>420515</item>
+        <item>420517</item>
+        <item>420519</item>
+        <item>420520</item>
+        <item>420530</item>
+        <item>420535</item>
+        <item>420540</item>
+        <item>420543</item>
+        <item>420545</item>
+        <item>420550</item>
+        <item>420555</item>
+        <item>420560</item>
+        <item>420570</item>
+        <item>420580</item>
+        <item>420590</item>
+        <item>420600</item>
+        <item>420610</item>
+        <item>420620</item>
+        <item>420630</item>
+        <item>420640</item>
+        <item>420650</item>
+        <item>420660</item>
+        <item>420665</item>
+        <item>420670</item>
+        <item>420675</item>
+        <item>420680</item>
+        <item>420690</item>
+        <item>420700</item>
+        <item>420710</item>
+        <item>420720</item>
+        <item>420730</item>
+        <item>420740</item>
+        <item>420750</item>
+        <item>420757</item>
+        <item>420760</item>
+        <item>420765</item>
+        <item>420768</item>
+        <item>420770</item>
+        <item>420775</item>
+        <item>420780</item>
+        <item>420785</item>
+        <item>420790</item>
+        <item>420800</item>
+        <item>420810</item>
+        <item>420820</item>
+        <item>420830</item>
+        <item>420840</item>
+        <item>420845</item>
+        <item>420850</item>
+        <item>420860</item>
+        <item>420870</item>
+        <item>420880</item>
+        <item>420890</item>
+        <item>420895</item>
+        <item>420900</item>
+        <item>420910</item>
+        <item>420915</item>
+        <item>420917</item>
+        <item>420920</item>
+        <item>420930</item>
+        <item>420940</item>
+        <item>420945</item>
+        <item>420950</item>
+        <item>420960</item>
+        <item>420970</item>
+        <item>420980</item>
+        <item>420985</item>
+        <item>420990</item>
+        <item>421000</item>
+        <item>421003</item>
+        <item>421005</item>
+        <item>421010</item>
+        <item>421020</item>
+        <item>421030</item>
+        <item>421040</item>
+        <item>421050</item>
+        <item>421055</item>
+        <item>421060</item>
+        <item>421070</item>
+        <item>421080</item>
+        <item>421085</item>
+        <item>421090</item>
+        <item>421100</item>
+        <item>421105</item>
+        <item>421110</item>
+        <item>421120</item>
+        <item>421125</item>
+        <item>421130</item>
+        <item>421140</item>
+        <item>421145</item>
+        <item>421150</item>
+        <item>421160</item>
+        <item>421165</item>
+        <item>421170</item>
+        <item>421175</item>
+        <item>421180</item>
+        <item>421185</item>
+        <item>421187</item>
+        <item>421189</item>
+        <item>421190</item>
+        <item>421200</item>
+        <item>421205</item>
+        <item>421210</item>
+        <item>421220</item>
+        <item>421223</item>
+        <item>421225</item>
+        <item>421227</item>
+        <item>421230</item>
+        <item>421240</item>
+        <item>421250</item>
+        <item>421260</item>
+        <item>421265</item>
+        <item>421270</item>
+        <item>421290</item>
+        <item>421300</item>
+        <item>421310</item>
+        <item>421315</item>
+        <item>421320</item>
+        <item>421330</item>
+        <item>421335</item>
+        <item>421340</item>
+        <item>421350</item>
+        <item>421360</item>
+        <item>421370</item>
+        <item>421380</item>
+        <item>421390</item>
+        <item>421400</item>
+        <item>421410</item>
+        <item>421415</item>
+        <item>421420</item>
+        <item>421430</item>
+        <item>421440</item>
+        <item>421450</item>
+        <item>421460</item>
+        <item>421480</item>
+        <item>421470</item>
+        <item>421490</item>
+        <item>421500</item>
+        <item>421505</item>
+        <item>421507</item>
+        <item>421510</item>
+        <item>421520</item>
+        <item>421530</item>
+        <item>421535</item>
+        <item>421540</item>
+        <item>421545</item>
+        <item>421550</item>
+        <item>421555</item>
+        <item>421560</item>
+        <item>421565</item>
+        <item>421567</item>
+        <item>421568</item>
+        <item>421569</item>
+        <item>421570</item>
+        <item>421580</item>
+        <item>421575</item>
+        <item>421590</item>
+        <item>421600</item>
+        <item>421605</item>
+        <item>421610</item>
+        <item>421620</item>
+        <item>421630</item>
+        <item>421635</item>
+        <item>421625</item>
+        <item>421640</item>
+        <item>421650</item>
+        <item>421660</item>
+        <item>421670</item>
+        <item>421680</item>
+        <item>421690</item>
+        <item>421700</item>
+        <item>421710</item>
+        <item>421715</item>
+        <item>421720</item>
+        <item>421725</item>
+        <item>421730</item>
+        <item>421740</item>
+        <item>421750</item>
+        <item>421755</item>
+        <item>421760</item>
+        <item>421770</item>
+        <item>421775</item>
+        <item>421780</item>
+        <item>421790</item>
+        <item>421795</item>
+        <item>421800</item>
+        <item>421810</item>
+        <item>421820</item>
+        <item>421825</item>
+        <item>421830</item>
+        <item>421835</item>
+        <item>421840</item>
+        <item>421850</item>
+        <item>421860</item>
+        <item>421870</item>
+        <item>421875</item>
+        <item>421880</item>
+        <item>421885</item>
+        <item>421890</item>
+        <item>421895</item>
+        <item>421900</item>
+        <item>421910</item>
+        <item>421915</item>
+        <item>421917</item>
+        <item>421920</item>
+        <item>421930</item>
+        <item>421935</item>
+        <item>421940</item>
+        <item>421950</item>
+        <item>421960</item>
+        <item>421970</item>
+        <item>421985</item>
+    </string-array>
+
+    <string-array name="nomes_municipios_view">
+        <item>Abdon Batista</item>
+        <item>Abelardo Luz</item>
+        <item>Agrolândia</item>
+        <item>Agronômica</item>
+        <item>Água Doce</item>
+        <item>Águas de Chapecó</item>
+        <item>Águas Frias</item>
+        <item>Águas Mornas</item>
+        <item>Alfredo Wagner</item>
+        <item>Alto Bela Vista</item>
+        <item>Anchieta</item>
+        <item>Angelina</item>
+        <item>Anita Garibaldi</item>
+        <item>Anitápolis</item>
+        <item>Antônio Carlos</item>
+        <item>Apiúna</item>
+        <item>Arabutã</item>
+        <item>Araquari</item>
+        <item>Araranguá</item>
+        <item>Armazém</item>
+        <item>Arroio Trinta</item>
+        <item>Arvoredo</item>
+        <item>Ascurra</item>
+        <item>Atalanta</item>
+        <item>Aurora</item>
+        <item>Balneário Arroio do Silva</item>
+        <item>Balneário Barra do Sul</item>
+        <item>Balneário Camboriú</item>
+        <item>Balneário Gaivota</item>
+        <item>Balneário Piçarras</item>
+        <item>Balneário Rincão</item>
+        <item>Bandeirante</item>
+        <item>Barra Bonita</item>
+        <item>Barra Velha</item>
+        <item>Bela Vista do Toldo</item>
+        <item>Belmonte</item>
+        <item>Benedito Novo</item>
+        <item>Biguaçu</item>
+        <item>Blumenau</item>
+        <item>Bocaina do Sul</item>
+        <item>Bom Jardim da Serra</item>
+        <item>Bom Jesus</item>
+        <item>Bom Jesus do Oeste</item>
+        <item>Bom Retiro</item>
+        <item>Bombinhas</item>
+        <item>Botuverá</item>
+        <item>Braço do Norte</item>
+        <item>Braço do Trombudo</item>
+        <item>Brunópolis</item>
+        <item>Brusque</item>
+        <item>Caçador</item>
+        <item>Caibi</item>
+        <item>Calmon</item>
+        <item>Camboriú</item>
+        <item>Campo Alegre</item>
+        <item>Campo Belo do Sul</item>
+        <item>Campo Erê</item>
+        <item>Campos Novos</item>
+        <item>Canelinha</item>
+        <item>Canoinhas</item>
+        <item>Capão Alto</item>
+        <item>Capinzal</item>
+        <item>Capivari de Baixo</item>
+        <item>Catanduvas</item>
+        <item>Caxambu do Sul</item>
+        <item>Celso Ramos</item>
+        <item>Cerro Negro</item>
+        <item>Chapadão do Lageado</item>
+        <item>Chapecó</item>
+        <item>Cocal do Sul</item>
+        <item>Concórdia</item>
+        <item>Cordilheira Alta</item>
+        <item>Coronel Freitas</item>
+        <item>Coronel Martins</item>
+        <item>Correia Pinto</item>
+        <item>Corupá</item>
+        <item>Criciúma</item>
+        <item>Cunha Porã</item>
+        <item>Cunhataí</item>
+        <item>Curitibanos</item>
+        <item>Descanso</item>
+        <item>Dionísio Cerqueira</item>
+        <item>Dona Emma</item>
+        <item>Doutor Pedrinho</item>
+        <item>Entre Rios</item>
+        <item>Ermo</item>
+        <item>Erval Velho</item>
+        <item>Faxinal dos Guedes</item>
+        <item>Flor do Sertão</item>
+        <item>Florianópolis</item>
+        <item>Formosa do Sul</item>
+        <item>Forquilhinha</item>
+        <item>Fraiburgo</item>
+        <item>Frei Rogério</item>
+        <item>Galvão</item>
+        <item>Garopaba</item>
+        <item>Garuva</item>
+        <item>Gaspar</item>
+        <item>Governador Celso Ramos</item>
+        <item>Grão Pará</item>
+        <item>Gravatal</item>
+        <item>Guabiruba</item>
+        <item>Guaraciaba</item>
+        <item>Guaramirim</item>
+        <item>Guarujá do Sul</item>
+        <item>Guatambú</item>
+        <item>Herval d\'Oeste</item>
+        <item>Ibiam</item>
+        <item>Ibicaré</item>
+        <item>Ibirama</item>
+        <item>Içara</item>
+        <item>Ilhota</item>
+        <item>Imaruí</item>
+        <item>Imbituba</item>
+        <item>Imbuia</item>
+        <item>Indaial</item>
+        <item>Iomerê</item>
+        <item>Ipira</item>
+        <item>Iporã do Oeste</item>
+        <item>Ipuaçu</item>
+        <item>Ipumirim</item>
+        <item>Iraceminha</item>
+        <item>Irani</item>
+        <item>Irati</item>
+        <item>Irineópolis</item>
+        <item>Itá</item>
+        <item>Itaiópolis</item>
+        <item>Itajaí</item>
+        <item>Itapema</item>
+        <item>Itapiranga</item>
+        <item>Itapoá</item>
+        <item>Ituporanga</item>
+        <item>Jaborá</item>
+        <item>Jacinto Machado</item>
+        <item>Jaguaruna</item>
+        <item>Jaraguá do Sul</item>
+        <item>Jardinópolis</item>
+        <item>Joaçaba</item>
+        <item>Joinville</item>
+        <item>José Boiteux</item>
+        <item>Jupiá</item>
+        <item>Lacerdópolis</item>
+        <item>Lages</item>
+        <item>Laguna</item>
+        <item>Lajeado Grande</item>
+        <item>Laurentino</item>
+        <item>Lauro Muller</item>
+        <item>Lebon Régis</item>
+        <item>Leoberto Leal</item>
+        <item>Lindóia do Sul</item>
+        <item>Lontras</item>
+        <item>Luiz Alves</item>
+        <item>Luzerna</item>
+        <item>Macieira</item>
+        <item>Mafra</item>
+        <item>Major Gercino</item>
+        <item>Major Vieira</item>
+        <item>Maracajá</item>
+        <item>Maravilha</item>
+        <item>Marema</item>
+        <item>Massaranduba</item>
+        <item>Matos Costa</item>
+        <item>Meleiro</item>
+        <item>Mirim Doce</item>
+        <item>Modelo</item>
+        <item>Mondaí</item>
+        <item>Monte Carlo</item>
+        <item>Monte Castelo</item>
+        <item>Morro da Fumaça</item>
+        <item>Morro Grande</item>
+        <item>Navegantes</item>
+        <item>Nova Erechim</item>
+        <item>Nova Itaberaba</item>
+        <item>Nova Trento</item>
+        <item>Nova Veneza</item>
+        <item>Novo Horizonte</item>
+        <item>Orleans</item>
+        <item>Otacílio Costa</item>
+        <item>Ouro</item>
+        <item>Ouro Verde</item>
+        <item>Paial</item>
+        <item>Painel</item>
+        <item>Palhoça</item>
+        <item>Palma Sola</item>
+        <item>Palmeira</item>
+        <item>Palmitos</item>
+        <item>Papanduva</item>
+        <item>Paraíso</item>
+        <item>Passo de Torres</item>
+        <item>Passos Maia</item>
+        <item>Paulo Lopes</item>
+        <item>Pedras Grandes</item>
+        <item>Penha</item>
+        <item>Peritiba</item>
+        <item>Pescaria Brava</item>
+        <item>Petrolândia</item>
+        <item>Pinhalzinho</item>
+        <item>Pinheiro Preto</item>
+        <item>Piratuba</item>
+        <item>Planalto Alegre</item>
+        <item>Pomerode</item>
+        <item>Ponte Alta</item>
+        <item>Ponte Alta do Norte</item>
+        <item>Ponte Serrada</item>
+        <item>Porto Belo</item>
+        <item>Porto União</item>
+        <item>Pouso Redondo</item>
+        <item>Praia Grande</item>
+        <item>Presidente Castello Branco</item>
+        <item>Presidente Getúlio</item>
+        <item>Presidente Nereu</item>
+        <item>Princesa</item>
+        <item>Quilombo</item>
+        <item>Rancho Queimado</item>
+        <item>Rio das Antas</item>
+        <item>Rio do Campo</item>
+        <item>Rio do Oeste</item>
+        <item>Rio do Sul</item>
+        <item>Rio dos Cedros</item>
+        <item>Rio Fortuna</item>
+        <item>Rio Negrinho</item>
+        <item>Rio Rufino</item>
+        <item>Riqueza</item>
+        <item>Rodeio</item>
+        <item>Romelândia</item>
+        <item>Salete</item>
+        <item>Saltinho</item>
+        <item>Salto Veloso</item>
+        <item>Sangão</item>
+        <item>Santa Cecília</item>
+        <item>Santa Helena</item>
+        <item>Santa Rosa de Lima</item>
+        <item>Santa Rosa do Sul</item>
+        <item>Santa Terezinha</item>
+        <item>Santa Terezinha do Progresso</item>
+        <item>Santiago do Sul</item>
+        <item>Santo Amaro da Imperatriz</item>
+        <item>São Bento do Sul</item>
+        <item>São Bernardino</item>
+        <item>São Bonifácio</item>
+        <item>São Carlos</item>
+        <item>São Cristovão do Sul</item>
+        <item>São Domingos</item>
+        <item>São Francisco do Sul</item>
+        <item>São João Batista</item>
+        <item>São João do Itaperiú</item>
+        <item>São João do Oeste</item>
+        <item>São João do Sul</item>
+        <item>São Joaquim</item>
+        <item>São José</item>
+        <item>São José do Cedro</item>
+        <item>São José do Cerrito</item>
+        <item>São Lourenço do Oeste</item>
+        <item>São Ludgero</item>
+        <item>São Martinho</item>
+        <item>São Miguel da Boa Vista</item>
+        <item>São Miguel do Oeste</item>
+        <item>São Pedro de Alcântara</item>
+        <item>Saudades</item>
+        <item>Schroeder</item>
+        <item>Seara</item>
+        <item>Serra Alta</item>
+        <item>Siderópolis</item>
+        <item>Sombrio</item>
+        <item>Sul Brasil</item>
+        <item>Taió</item>
+        <item>Tangará</item>
+        <item>Tigrinhos</item>
+        <item>Tijucas</item>
+        <item>Timbé do Sul</item>
+        <item>Timbó</item>
+        <item>Timbó Grande</item>
+        <item>Três Barras</item>
+        <item>Treviso</item>
+        <item>Treze de Maio</item>
+        <item>Treze Tílias</item>
+        <item>Trombudo Central</item>
+        <item>Tubarão</item>
+        <item>Tunápolis</item>
+        <item>Turvo</item>
+        <item>União do Oeste</item>
+        <item>Urubici</item>
+        <item>Urupema</item>
+        <item>Urussanga</item>
+        <item>Vargeão</item>
+        <item>Vargem</item>
+        <item>Vargem Bonita</item>
+        <item>Vidal Ramos</item>
+        <item>Videira</item>
+        <item>Vitor Meireles</item>
+        <item>Witmarsum</item>
+        <item>Xanxerê</item>
+        <item>Xavantina</item>
+        <item>Xaxim</item>
+        <item>Zortéa</item>
+    </string-array>
+
+    <string-array name="nomes_municipios_bd">
+        <item>ABDON BATISTA</item>
+        <item>ABELARDO LUZ</item>
+        <item>AGROLANDIA</item>
+        <item>AGRONOMICA</item>
+        <item>AGUA DOCE</item>
+        <item>AGUAS DE CHAPECO</item>
+        <item>AGUAS FRIAS</item>
+        <item>AGUAS MORNAS</item>
+        <item>ALFREDO WAGNER</item>
+        <item>ALTO BELA VISTA</item>
+        <item>ANCHIETA</item>
+        <item>ANGELINA</item>
+        <item>ANITA GARIBALDI</item>
+        <item>ANITAPOLIS</item>
+        <item>ANTONIO CARLOS</item>
+        <item>APIUNA</item>
+        <item>ARABUTA</item>
+        <item>ARAQUARI</item>
+        <item>ARARANGUA</item>
+        <item>ARMAZEM</item>
+        <item>ARROIO TRINTA</item>
+        <item>ARVOREDO</item>
+        <item>ASCURRA</item>
+        <item>ATALANTA</item>
+        <item>AURORA</item>
+        <item>BALNEARIO ARROIO DO SILVA</item>
+        <item>BALNEARIO BARRA DO SUL</item>
+        <item>BALNEARIO CAMBORIU</item>
+        <item>BALNEARIO GAIVOTA</item>
+        <item>BALNEARIO PICARRAS</item>
+        <item>BALNEARIO RINCAO</item>
+        <item>BANDEIRANTE</item>
+        <item>BARRA BONITA</item>
+        <item>BARRA VELHA</item>
+        <item>BELA VISTA DO TOLDO</item>
+        <item>BELMONTE</item>
+        <item>BENEDITO NOVO</item>
+        <item>BIGUACU</item>
+        <item>BLUMENAU</item>
+        <item>BOCAINA DO SUL</item>
+        <item>BOM JARDIM DA SERRA</item>
+        <item>BOM JESUS</item>
+        <item>BOM JESUS DO OESTE</item>
+        <item>BOM RETIRO</item>
+        <item>BOMBINHAS</item>
+        <item>BOTUVERA</item>
+        <item>BRACO DO NORTE</item>
+        <item>BRACO DO TROMBUDO</item>
+        <item>BRUNOPOLIS</item>
+        <item>BRUSQUE</item>
+        <item>CACADOR</item>
+        <item>CAIBI</item>
+        <item>CALMON</item>
+        <item>CAMBORIU</item>
+        <item>CAMPO ALEGRE</item>
+        <item>CAMPO BELO DO SUL</item>
+        <item>CAMPO ERE</item>
+        <item>CAMPOS NOVOS</item>
+        <item>CANELINHA</item>
+        <item>CANOINHAS</item>
+        <item>CAPAO ALTO</item>
+        <item>CAPINZAL</item>
+        <item>CAPIVARI DE BAIXO</item>
+        <item>CATANDUVAS</item>
+        <item>CAXAMBU DO SUL</item>
+        <item>CELSO RAMOS</item>
+        <item>CERRO NEGRO</item>
+        <item>CHAPADAO DO LAGEADO</item>
+        <item>CHAPECO</item>
+        <item>COCAL DO SUL</item>
+        <item>CONCORDIA</item>
+        <item>CORDILHEIRA ALTA</item>
+        <item>CORONEL FREITAS</item>
+        <item>CORONEL MARTINS</item>
+        <item>CORREIA PINTO</item>
+        <item>CORUPA</item>
+        <item>CRICIUMA</item>
+        <item>CUNHA PORA</item>
+        <item>CUNHATAI</item>
+        <item>CURITIBANOS</item>
+        <item>DESCANSO</item>
+        <item>DIONISIO CERQUEIRA</item>
+        <item>DONA EMMA</item>
+        <item>DOUTOR PEDRINHO</item>
+        <item>ENTRE RIOS</item>
+        <item>ERMO</item>
+        <item>ERVAL VELHO</item>
+        <item>FAXINAL DOS GUEDES</item>
+        <item>FLOR DO SERTAO</item>
+        <item>FLORIANOPOLIS</item>
+        <item>FORMOSA DO SUL</item>
+        <item>FORQUILHINHA</item>
+        <item>FRAIBURGO</item>
+        <item>FREI ROGERIO</item>
+        <item>GALVAO</item>
+        <item>GAROPABA</item>
+        <item>GARUVA</item>
+        <item>GASPAR</item>
+        <item>GOVERNADOR CELSO RAMOS</item>
+        <item>GRAO PARA</item>
+        <item>GRAVATAL</item>
+        <item>GUABIRUBA</item>
+        <item>GUARACIABA</item>
+        <item>GUARAMIRIM</item>
+        <item>GUARUJA DO SUL</item>
+        <item>GUATAMBU</item>
+        <item>HERVAL D OESTE</item>
+        <item>IBIAM</item>
+        <item>IBICARE</item>
+        <item>IBIRAMA</item>
+        <item>ICARA</item>
+        <item>ILHOTA</item>
+        <item>IMARUI</item>
+        <item>IMBITUBA</item>
+        <item>IMBUIA</item>
+        <item>INDAIAL</item>
+        <item>IOMERE</item>
+        <item>IPIRA</item>
+        <item>IPORA DO OESTE</item>
+        <item>IPUACU</item>
+        <item>IPUMIRIM</item>
+        <item>IRACEMINHA</item>
+        <item>IRANI</item>
+        <item>IRATI</item>
+        <item>IRINEOPOLIS</item>
+        <item>ITA</item>
+        <item>ITAIOPOLIS</item>
+        <item>ITAJAI</item>
+        <item>ITAPEMA</item>
+        <item>ITAPIRANGA</item>
+        <item>ITAPOA</item>
+        <item>ITUPORANGA</item>
+        <item>JABORA</item>
+        <item>JACINTO MACHADO</item>
+        <item>JAGUARUNA</item>
+        <item>JARAGUA DO SUL</item>
+        <item>JARDINOPOLIS</item>
+        <item>JOACABA</item>
+        <item>JOINVILLE</item>
+        <item>JOSE BOITEUX</item>
+        <item>JUPIA</item>
+        <item>LACERDOPOLIS</item>
+        <item>LAGES</item>
+        <item>LAGUNA</item>
+        <item>LAJEADO GRANDE</item>
+        <item>LAURENTINO</item>
+        <item>LAURO MULLER</item>
+        <item>LEBON REGIS</item>
+        <item>LEOBERTO LEAL</item>
+        <item>LINDOIA DO SUL</item>
+        <item>LONTRAS</item>
+        <item>LUIZ ALVES</item>
+        <item>LUZERNA</item>
+        <item>MACIEIRA</item>
+        <item>MAFRA</item>
+        <item>MAJOR GERCINO</item>
+        <item>MAJOR VIEIRA</item>
+        <item>MARACAJA</item>
+        <item>MARAVILHA</item>
+        <item>MAREMA</item>
+        <item>MASSARANDUBA</item>
+        <item>MATOS COSTA</item>
+        <item>MELEIRO</item>
+        <item>MIRIM DOCE</item>
+        <item>MODELO</item>
+        <item>MONDAI</item>
+        <item>MONTE CARLO</item>
+        <item>MONTE CASTELO</item>
+        <item>MORRO DA FUMACA</item>
+        <item>MORRO GRANDE</item>
+        <item>NAVEGANTES</item>
+        <item>NOVA ERECHIM</item>
+        <item>NOVA ITABERABA</item>
+        <item>NOVA TRENTO</item>
+        <item>NOVA VENEZA</item>
+        <item>NOVO HORIZONTE</item>
+        <item>ORLEANS</item>
+        <item>OTACILIO COSTA</item>
+        <item>OURO</item>
+        <item>OURO VERDE</item>
+        <item>PAIAL</item>
+        <item>PAINEL</item>
+        <item>PALHOCA</item>
+        <item>PALMA SOLA</item>
+        <item>PALMEIRA</item>
+        <item>PALMITOS</item>
+        <item>PAPANDUVA</item>
+        <item>PARAISO</item>
+        <item>PASSO DE TORRES</item>
+        <item>PASSOS MAIA</item>
+        <item>PAULO LOPES</item>
+        <item>PEDRAS GRANDES</item>
+        <item>PENHA</item>
+        <item>PERITIBA</item>
+        <item>PESCARIA BRAVA</item>
+        <item>PETROLANDIA</item>
+        <item>PINHALZINHO</item>
+        <item>PINHEIRO PRETO</item>
+        <item>PIRATUBA</item>
+        <item>PLANALTO ALEGRE</item>
+        <item>POMERODE</item>
+        <item>PONTE ALTA</item>
+        <item>PONTE ALTA DO NORTE</item>
+        <item>PONTE SERRADA</item>
+        <item>PORTO BELO</item>
+        <item>PORTO UNIAO</item>
+        <item>POUSO REDONDO</item>
+        <item>PRAIA GRANDE</item>
+        <item>PRESIDENTE CASTELLO BRANCO</item>
+        <item>PRESIDENTE GETULIO</item>
+        <item>PRESIDENTE NEREU</item>
+        <item>PRINCESA</item>
+        <item>QUILOMBO</item>
+        <item>RANCHO QUEIMADO</item>
+        <item>RIO DAS ANTAS</item>
+        <item>RIO DO CAMPO</item>
+        <item>RIO DO OESTE</item>
+        <item>RIO DO SUL</item>
+        <item>RIO DOS CEDROS</item>
+        <item>RIO FORTUNA</item>
+        <item>RIO NEGRINHO</item>
+        <item>RIO RUFINO</item>
+        <item>RIQUEZA</item>
+        <item>RODEIO</item>
+        <item>ROMELANDIA</item>
+        <item>SALETE</item>
+        <item>SALTINHO</item>
+        <item>SALTO VELOSO</item>
+        <item>SANGAO</item>
+        <item>SANTA CECILIA</item>
+        <item>SANTA HELENA</item>
+        <item>SANTA ROSA DE LIMA</item>
+        <item>SANTA ROSA DO SUL</item>
+        <item>SANTA TEREZINHA</item>
+        <item>SANTA TEREZINHA DO PROGRESSO</item>
+        <item>SANTIAGO DO SUL</item>
+        <item>SANTO AMARO DA IMPERATRIZ</item>
+        <item>SAO BENTO DO SUL</item>
+        <item>SAO BERNARDINO</item>
+        <item>SAO BONIFACIO</item>
+        <item>SAO CARLOS</item>
+        <item>SAO CRISTOVAO DO SUL</item>
+        <item>SAO DOMINGOS</item>
+        <item>SAO FRANCISCO DO SUL</item>
+        <item>SAO JOAO BATISTA</item>
+        <item>SAO JOAO DO ITAPERIU</item>
+        <item>SAO JOAO DO OESTE</item>
+        <item>SAO JOAO DO SUL</item>
+        <item>SAO JOAQUIM</item>
+        <item>SAO JOSE</item>
+        <item>SAO JOSE DO CEDRO</item>
+        <item>SAO JOSE DO CERRITO</item>
+        <item>SAO LOURENCO DO OESTE</item>
+        <item>SAO LUDGERO</item>
+        <item>SAO MARTINHO</item>
+        <item>SAO MIGUEL DA BOA VISTA</item>
+        <item>SAO MIGUEL DO OESTE</item>
+        <item>SAO PEDRO DE ALCANTARA</item>
+        <item>SAUDADES</item>
+        <item>SCHROEDER</item>
+        <item>SEARA</item>
+        <item>SERRA ALTA</item>
+        <item>SIDEROPOLIS</item>
+        <item>SOMBRIO</item>
+        <item>SUL BRASIL</item>
+        <item>TAIO</item>
+        <item>TANGARA</item>
+        <item>TIGRINHOS</item>
+        <item>TIJUCAS</item>
+        <item>TIMBE DO SUL</item>
+        <item>TIMBO</item>
+        <item>TIMBO GRANDE</item>
+        <item>TRES BARRAS</item>
+        <item>TREVISO</item>
+        <item>TREZE DE MAIO</item>
+        <item>TREZE TILIAS</item>
+        <item>TROMBUDO CENTRAL</item>
+        <item>TUBARAO</item>
+        <item>TUNAPOLIS</item>
+        <item>TURVO</item>
+        <item>UNIAO DO OESTE</item>
+        <item>URUBICI</item>
+        <item>URUPEMA</item>
+        <item>URUSSANGA</item>
+        <item>VARGEAO</item>
+        <item>VARGEM</item>
+        <item>VARGEM BONITA</item>
+        <item>VIDAL RAMOS</item>
+        <item>VIDEIRA</item>
+        <item>VITOR MEIRELES</item>
+        <item>WITMARSUM</item>
+        <item>XANXERE</item>
+        <item>XAVANTINA</item>
+        <item>XAXIM</item>
+        <item>ZORTEA</item>
+    </string-array>
+
+    <string-array name="tipos_etabelecimento">
+        <item>CENTRAL DE NOTIFICACAO,CAPTACAO E DISTRIB DE ORGAOS ESTADUAL</item>
+        <item>CENTRO DE ATENCAO HEMOTERAPIA E OU HEMATOLOGICA</item>
+        <item>CENTRO DE APOIO A SAUDE DA FAMILIA</item>
+        <item>CENTRO DE ATENCAO PSICOSSOCIAL</item>
+        <item>CENTRO DE PARTO NORMAL - ISOLADO</item>
+        <item>CENTRO DE SAUDE/UNIDADE BASICA</item>
+        <item>CLINICA/CENTRO DE ESPECIALIDADE</item>
+        <item>CONSULTORIO ISOLADO</item>
+        <item>HOSPITAL ESPECIALIZADO</item>
+        <item>HOSPITAL GERAL</item>
+        <item>HOSPITAL/DIA - ISOLADO</item>
+        <item>LABORATORIO CENTRAL DE SAUDE PUBLICA LACEN</item>
+        <item>LABORATORIO DE SAUDE PUBLICA</item>
+        <item>POLICLINICA</item>
+        <item>POSTO DE SAUDE</item>
+        <item>PRONTO ATENDIMENTO</item>
+        <item>PRONTO SOCORRO ESPECIALIZADO</item>
+        <item>PRONTO SOCORRO GERAL</item>
+        <item>UNIDADE DE APOIO DIAGNOSE E TERAPIA (SADT ISOLADO)</item>
+        <item>UNIDADE MISTA</item>
+    </string-array>
+
+    <string-array name="tipos_atendimento">
+        <item>AMBULATORIAL</item>
+        <item>INTERNACAO</item>
+        <item>SADT</item>
+        <item>URGENCIA</item>
+
+    </string-array>
+
+    <string name="title_activity_estabelecimento">EstabelecimentoActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="txt_lista_sem_favoritos">Você não possui favoritos</string>
+
+    <!-- Strings de BuscaGpsActivity -->
+    <string name="fab_filtro_tipo_estabelecimento">Tipo de estabelecimento</string>
+    <string name="fab_filtro_tipo_atendimento">Tipo de atendimento</string>
+    <string name="fab_filtro_tipo_convenio">Tipo de convênio</string>
+    <string name="fab_filtro_tipo_servico">Tipo de serviço</string>
+    <string name="fab_filtro_tipo_profissional">Tipo de profissional</string>
+    <string name="fab_filtro_limpar_todos">Limpar filtros</string>
+    <string name="txt_erro_gps">Verifique seu GPS</string>
+    <string name="titulo_busca_gps_activity">Consulta por proximidade</string>
+
+    <!-- String FiltroGeralDialog -->
+    <string name="ttulo_dialog_filtro">Selecione os itens a serem filtrados</string>
+
+    <!-- Strings de BuscaGpsActivity SnackBar-->
+    <string name="tentar_novamente_action">TENTAR NOVAMENTE</string>
+    <string name="tentar_novamente_label">Localização obrigatória</string>
+
+    <string-array name="tipos_convenio">
+        <item>PARTICULAR</item>
+        <item>PLANO / SEGURO PROPRIO</item>
+        <item>PLANO / SEGURO TERCEIRO</item>
+        <item>PLANO DE SAUDE PRIVADO</item>
+        <item>PLANO DE SAUDE PUBLICO</item>
+        <item>SUS</item>
+    </string-array>
+
+    <string name="title_activity_busca_geral">Busca geral</string>
+    <string name="txt_erro_busca_geral">Nenhum resultado localizado</string>
+
+    <!-- BuscaGeralActivity -->
+    <string name="label_tipo_busca">Selecione um tipo de busca:</string>
+    <string name="titulo_dialog_buscar_geral">Busca geral</string>
+    <string-array name="tipos_buscas">
+        <item>Selecione uma opção</item>
+        <item>Tipos de convênios</item>
+        <item>Formas de atendimento</item>
+        <item>Nome do profissional</item>
+        <item>Especialidades</item>
+        <item>Nome do estabelecimento</item>
+        <item>Serviços oferecidos</item>
+    </string-array>
+
+    <!-- SobreActivity -->
+    <string name="appNome">CadESaúde</string>
+    <string name="appDesc">Aplicativo desenvolvido por Jucemar Dimon como trabalho de conclusão do curso de Sistemas de Informações da Universidade Federal de Santa Catarina(UFSC). Este aplicativo tem como
+        objetivo não somente a aplicação dos conhecimentos adquiridos ao longo do curso como também a criação de uma ferramenta para auxiliar o cidadão catarinense na busca por estabelecimentos de saúde na sua região.</string>
+    <string name="appVersao">Versão do aplicativo</string>
+    <string name="bdVersao">Versão do Banco de dados</string>
+    <string name="title_activity_primeiros_passos">PrimeirosPassosActivity</string>
+    <string name="dummy_button">Configurações</string>
+    <string name="dummy_content">Seja bem vndo ao aplicativo CadESaúde.\n Neste seu primeiro acesso você deverá clicar no botão configurações e selecionar os municípios que deseja incluir nas buscas por estabelecimentos de saúde.</string>
+
+    <!-- AjudaActivity - Tela inicial -->
+    <string name="cabecalho_ajuda">Neste menu do aplicativo você poderá tirar algunas dúvidas sobre termos específicos que são utilizados no sistema de cadastros de estabelecimentos de saúde do DATASUS.</string>
+    <string name="label_btn_tipos_estabelecimentos">Tipos de estabelecimentos</string>
+    <string name="label_btn_tipos_serviços">Tipos de serviços existentes</string>
+
+    <!-- AjudaActivity - Tipos de estabelecimentos -->
+    <string name="titulo_actvt_ajuda_estabelecimentos">Tipos de estabelecimentos</string>
+
+    <string name="posto_de_saude_titulo">Posto de Saúde</string>
+    <string name="posto_de_saude">Unidade destinada à prestação de assistência a uma determinada população, de forma programada ou não, por profissional de nível médio, com a presença intermitente ou não do profissional médico.</string>
+
+    <string name="centro_saude_titulo">Centro de Saúde/Unidade Básica de Saúde</string>
+    <string name="centro_saude">Unidade para realização de atendimentos de atenção básica e integral a uma população, de forma programada ou não, nas especialidades básicas, podendo oferecer assistência odontológica e de outros profissionais de nível superior. A assistência deve ser permanente e prestada por médico generalista ou especialista nestas áreas. Podendo ou não oferecer: SADT e Pronto atendimento 24 Horas.</string>
+
+    <string name="policlinica_ttulo">Policlínica</string>
+    <string name="policlinica">Unidade de saúde para prestação de atendimento ambulatorial em várias especialidades, incluindo ou não as especialidades básicas, podendo ainda ofertar outras especialidades não médicas. Podendo ou não oferecer: SADT e Pronto atendimento 24 Horas.</string>
+
+    <string name="hospital_geral_titulo">Hospital Geral</string>
+    <string name="hospital_geral">Hospital destinado à prestação de atendimento nas especialidades básicas, por especialistas e/ou outras especialidades médicas. Pode dispor de serviço de Urgência/Emergência. Deve dispor também de SADT de média complexidade. Podendo Ter ou não SIPAC.</string>
+
+    <string name="hospital_especializado_titulo">Hospital Especializado</string>
+    <string name="hospital_especializado">Hospital destinado à prestação de assistência à saúde em uma única especialidade/área. Pode dispor de serviço de Urgência/Emergência e SADT. Podendo Ter ou não SIPAC Geralmente de referência regional, macro regional ou estadual.</string>
+
+    <string name="unidade_mista_titulo">Unidade Mista</string>
+    <string name="unidade_mista">Unidade de saúde básica destinada à prestação de atendimento em atenção básica e integral à saúde, de forma programada ou não, nas especialidades básicas, podendo oferecer assistência odontológica e de outros profissionais, com unidade de internação, sob administração única. A assistência médica deve ser permanente e prestada por médico especialista ou generalista. Pode dispor de urgência/emergência e SADT básico ou de rotina.</string>
+
+    <string name="pronto_socorro_geral_titulo">Pronto Socorro Geral</string>
+    <string name="pronto_socorro_geral">Unidade destinada à prestação de assistência a pacientes com ou sem risco de vida, cujos agravos necessitam de atendimento imediato. Podendo ter ou não internação.</string>
+
+    <string name="pronto_socorro_especializado_titulo">Pronto Socorro Geral</string>
+    <string name="pronto_socorro_especializado">Unidade destinada à prestação de assistência em uma ou mais especialidades, a pacientes com ou sem risco de vida, cujos agravos necessitam de atendimento imediato.</string>
+
+    <string name="consultorio_isolado_titulo">Consultório Isolado</string>
+    <string name="consultorio_isolado">Sala isolada destinada à prestação de assistência médica ou odontológica ou de outros profissionais de saúde de nível superior.</string>
+
+    <string name="clinica_titulo">Clínica/Centro de Especialidade</string>
+    <string name="clinica">Clínica Especializada destinada à assistência ambulatorial em apenas uma especialidade/área da assistência.</string>
+
+    <string name="sadt_titulo">Unidade de Serviço de Apoio de Diagnose e Terapia (SADT ISOLADO)</string>
+    <string name="sadt">Unidades isoladas onde são realizadas atividades que auxiliam a determinação de diagnóstico e/ou complementam o tratamento e a reabilitação do paciente.</string>
+
+    <string name="parto_isolado_titulo">Centro de Parto Normal Isolado</string>
+    <string name="parto_isolado">Unidade intra-hospitalar ou isolada, especializada no atendimento da mulher no período gravídico puerperal.</string>
+
+    <string name="hospital_dia_titulo">Hospital/Dia - Isolado</string>
+    <string name="hospital_dia">Unidades especializadas no atendimento de curta duração com caráter intermediário entre a assistência ambulatorial e a internação.</string>
+
+    <string name="labo_saude_publica_titulo">Laboratório Central de Saúde Pública</string>
+    <string name="labo_saude_publica">Estabelecimento de Saúde que integra o Sistema Nacional de Laboratórios de Saúde Pública - SISLAB, em conformidade com normalização vigente.</string>
+
+    <string name="centro_hemato_titulo">Centro de Atencao Hemoterapica e ou Hematologica</string>
+    <string name="centro_hemato">Estabelecimento que realiza o ciclo do sangue, desde a captação do doador, processamento, testes sorológicos, testes imunohematológicos, distribuição e transfusão de sangue de maneira total ou parcial.</string>
+
+    <string name="caps_titulo">Centro De Atenção Psicossocial (CAPS)</string>
+    <string name="caps">Entende-se por Centro de Atenção Psicossocial o tipo de estabelecimento isolado com as especificações seguintes: Estabelecimento de saúde de esfera administrativa pública com serviçosde saúde mental abertos e comunitários do Sistema Único de Saúde SUS destinados a prestar atenção diária às pessoas que sofrem com transtornos mentais severos e persistentes, em sua área territorial, em regime de tratamento intensivo, semi-intensivo e não-intensivo. Devem oferecer cuidados clínicos e de reabilitação psicossocial e têm como objetivo substituir o modelo hospitalocêntrico, evitar internações, favorecer o exercício da cidadania e da inclusão social dos usuários e de suas famílias, e executar as atribuições de supervisão e regulamentação de rede de serviços de saúde mental, quando de natureza pública.</string>
+
+    <string name="upa_titulo">Pronto Atendimento</string>
+    <string name="upa">Estabelecimento autônomo não-hospitalar, que integra a Rede de Atenção às Urgências e Emergências, destinado à assistência aos pacientes acometidos por quadros de urgência e emergência, realizando o atendimento inicial, estabilizando o paciente e definindo a necessidade ou não de encaminhamento a serviços de maior complexidade.</string>
+
+
+    <!-- AjudaActivity - Serviços especializados -->
+    <string name="titulo_actvt_ajuda_servicos">Tipos de serviços</string>
+    <string name="l01c1">Atenção à Doença Renal Crônica</string>
+    <string name="l01c2">Tratamento Dialítico-Hemodiálise; Confeccção/Intervenção de Acessos para Diálise; Tratamento Nefrologia em Geral; Tratamento Diálitico Peritonial; Tratamento em DRC</string>
+
+    <string name="l02c1">Atenção Às Pessoas com Doenças Raras</string>
+    <string name="l02c2">Atenção Especializada Em Doenças Raras; Referência em Doenças Raras</string>
+
+    <string name="l03c1">Atenção às Pessoas em Situação de Violência Sexual</string>
+    <string name="l03c2">Referência para Atenção Integral às Pessoas em Situação de Violência Sexual; Atenção Integral à Saúde de Adolescentes em Situação de Violência Sexual; Atenção Integral à Saúde de Crianças em Situação de Violência Sexual; Atenção Integral à Saúde de Homens em Situação de Violência Sexual; Atenção Integral à Saúde de Pessoas Idosas em Situação de Violência Sexual; Interrupção de Gravidez nos Casos Previstos em Lei; Atenção Ambulatorial às Pessoas em Situação de Violência Sexual;Coleta de Vestígios de Violência Sexual</string>
+
+    <string name="l04c1">Atenção Básica</string>
+    <string name="l04c2">Atenção Básica; Atenção Básica com Saúde Bucal</string>
+
+    <string name="l05c1">Atenção Especializada no Processo Transexualizador</string>
+    <string name="l05c2">Acompanhamento Clínico, pré e pós operatório e hormonioterapia; Cirurgia e Acompanhamento pré e pós oreratório</string>
+
+    <string name="l06c1">Atendimento Itinerante de Asistência e Ensino em Saúde</string>
+    <string name="l06c2">ODONTOLOGIA - PROJETO SAÚDE NA ESCOLA (PSE); ODONTOLOGIA - PROJETO BRASIL ALFABETIZADO (PBA); OFTALMOLOGIA - PROJETO SAÚDE NA ESCOLA (PSE); OFTALMOLOGIA - PROJETO BRASIL ALFABETIZADO (PBA)</string>
+
+    <string name="l07c1">Cirurgia Vascular</string>
+    <string name="l07c2">Fístula arteriovenosa sem enxerto; Fístula arteriovenosa com enxerto</string>
+
+    <string name="l08c1">Diagnóstico por Imagem</string>
+    <string name="l08c2">Radiologia; Ultra-sonografia; Tomografia computadorizada; Ressonância magnética; Radiologia intervencionista; Radiologia por telemedicina; Ultra-sonografia por telemedicina; Tomografia computadorizada por telemedicina;Ressonância magnética por telemedicina; Radiologia intervencionista por telemedicina; Mamografia; Mamografia por Telemedicina</string>
+
+    <string name="l09c1">Estratégia de Saúde da Família</string>
+    <string name="l09c2">Saúde da família; Saúde bucal MI; Saúde bucal MII</string>
+
+    <string name="l10c1">Estratégias de Agentes Comunitário de Saúde</string>
+    <string name="l10c2">Estratégia de Agentes Comunitários de Saúde - EACS; Estratégia de Agentes Comunitários de Saúde com Saúde Bucal - (modalidade I); Estratégia de Agentes Comunitários de Saúde com Saúde Bucal - (modalidade II)</string>
+
+    <string name="l11c1">Hospital-Dia</string>
+    <string name="l11c2">Saúde mental; AIDS; Geriátrico; Fibrose cística; Cirúrgico / Diagnóstico; Acompanhamento pós-transplante de medula óssea</string>
+
+    <string name="l12c1">Medicina Nuclear</string>
+    <string name="l12c2">Medicina nuclear in vivo; Medicina nuclear in vitro; Medicina nuclear in vivo por telemedicina</string>
+
+    <string name="l13c1">Regulação Assistêncial dos Serviços de Saúde</string>
+    <string name="l13c2">Central de Regulação de Internações Hospitalares; Cental de Regulação de Consultas e Exames; Central de Regulação de Urgências; Unidade de autorizações de TFD intermunicipais; Unidade de autorizações de TFD interestaduais; Central Estadual de Regulação da Alta Complexidade</string>
+
+    <string name="l14c1">Serviço de Apoio a Saúde da Família</string>
+    <string name="l14c2">NASF 1; NASF 2</string>
+
+    <string name="l15c1">Serviço de Atenção a Aaúde do Trabalhador</string>
+    <string name="l15c2">Atendimento/acompanhamento em saúde do trabalhador; Centro de referência em saúde do trabalhador CEREST estadual; VIGILÂNCIA EM SAÚDE DO TRABALHADOR (VISAT)</string>
+
+    <string name="l16c1">Serviço de Atenção a DST/HIV/AIDS</string>
+    <string name="l16c2">Testagem e aconselhamento; Diagnóstico e tratamento; Diagnóstico, tratamento e capacitação técnica</string>
+
+    <string name="l17c1">Serviço de Atenção à Obesidade</string>
+    <string name="l17c2">Tratamento clínico, cirúrgico, reparador e acompanhamento ao obeso</string>
+
+    <string name="l18c1">Serviço de Atenção a Saúde Auditiva</string>
+    <string name="l18c2">Serviço de Atenção à Saúde Auditiva na Média Complexidade; Serviço de Atenção à Saúde Auditiva na Alta Complexidade; Terapia fonoaudiológica; Diagnóstico em audiologia/otologia; Implante Coclear; Triagem Auditiva Neonatal; Diagnóstico em Audiologia/Otologia po Telemedicina; Atenção Especializada às Pessoas com Deficiência Auditiva</string>
+
+    <string name="l19c1">Serviço de Atenção á Saúde das Pessoas Ostomizadas</string>
+    <string name="l19c2">Atenção as Pessoas Ostomizadas I; Atenção as Pessoas Ostomizadas II</string>
+
+    <string name="l20c1">Serviço de Atenção a Saúde dos Adolecentes em Conflito com a Lei, em Regime de Internação e Internação Provisória</string>
+    <string name="l20c2">Unidade sócio-educativa com até 40 adolecentes; Unidade sócio-educativa com de 41 a 100 adolecentes; Unidade sócio-educativa com de 101 a 180 adolecentes; Unidade sócio-educativa com mais de 180 adolecentes</string>
+
+    <string name="l21c1">Serviço de Atenção a Saúde no Sistema Penitenciário</string>
+    <string name="l21c2">Atendimento em presídio até 100 presos; Atendimento em manicômio até 100 presos; Atendimento em presídio acima de 100 presos; Atendimento em manicômio acima de 100 presos</string>
+
+    <string name="l22c1">Serviço de Atenção a Saúde Reprodutiva</string>
+    <string name="l22c2">Atenção à infertilidade; Contracepção clínica; Laqueadura; Vasectomia</string>
+
+    <string name="l23c1">Serviço de Atenção ao Paciente com Tuberculose</string>
+    <string name="l23c2">Diagnóstico e tratamento Tratamento multidrogas resistentes</string>
+
+    <string name="l24c1">Serviço de Atenção ao Pré-Natal, Parto e Nascimento</string>
+    <string name="l24c2">Acompanhamento do pré-natal de risco habitual; Acompanhamento do pré-natal de alto risco; Parto em gestação de risco habitual; Parto em gestação de alto risco; Centro de parto normal; Casa da Gestante, Bebê e Puérpera</string>
+
+    <string name="l25c1">Serviço de Atenção Cardiovascular/Cardiologia</string>
+    <string name="l25c2">Eletrofisiologia; Cirurgia cardiovascular (adulto); Cirurgia cardiovascular (Pediátrico); Cirurgia vascular; Cardiologia intervencionista (hemodinâmica); Cardiologia Endovascular Extracardíaco; Cardiologia Clínica</string>
+
+    <string name="l26c1">Serviço de Atenção Domiciliar</string>
+    <string name="l26c2">Assitência Domiciliar; Internação Domiciliar; Equipe Multidisciplinar de Atenção Domiciliar - EMAD; Equipe Multidisciplinar de Apoio - EMAP</string>
+
+    <string name="l27c1">Serviço de Atenção em Neurologia/ Neurocirurgia</string>
+    <string name="l27c2">Neurocirurgia do trauma e anomalias do desenvolvimento; Coluna e nervos periféricos; Tumores do sistema nervoso; Neurocirurgia vascular; Tratamento neurocirúrgico da dor funcional; Investigação e cirurgia de epilepsia; Tratamento endovascular; Neurocirurgia funcional estereotáxica; Polissonografia</string>
+
+    <string name="l28c1">Serviço de Atenção em Saúde Bucal</string>
+    <string name="l28c2">Dentística; Endodontia; Periodontia clínica; Moldagem/Manutenção; Cirurgia oral; Cirurgia buco-maxilo-facial; Atendimento à pessoa com deficiência</string>
+
+    <string name="l29c1">Serviço de Atenção em Urologia</string>
+    <string name="l29c2">Urologia em Geral; Litotripsia</string>
+
+    <string name="l30c1">Serviço de Atenção Integral em Hanseniase</string>
+    <string name="l30c2">Serviço de Atenção Integral em Hanseniase Tipo I, Serviço de Atenção Integral em Hanseniase Tipo II, Serviço de Atenção Integral em Hanseniase Tipo III</string>
+
+    <string name="l31c1">Serviço de Atenção Psicossocial</string>
+    <string name="l31c2">Residência terapêutica em saúde mental; Atendimento psicossocial; Serviço Hospitalar para Atenção a Saúde Mental; Serviço Residencial Terapêutico Tipo I - SRT tipo I; Serviço Residencial Terapêutico Tipo II - SRT tipo II; UA Adulto; UA Infantojuvenil; Unidade de Atenção em Regime Residencial</string>
+
+    <string name="l32c1">Serviço de Atendimento Móvel de Urgências</string>
+    <string name="l32c2">Ambulância de transporte; Unidade de suporte básico de vida terrestre (USB); Unidade de suporte avançado de vida terrestre (USA); Unidade de Suporte Básico de vida: Equipe Embarcação; Veículos de intervenção rápida; Outros veículos; Ambulância de resgate; Motolância; Unidade de Suporte Avançado de vida: Equipe Embarcação; Equipe Aeromédico</string>
+
+    <string name="l33c1">Serviço de Banco de Tecidos</string>
+    <string name="l33c2">Banco de valvula cardiaca humana; Banco de tecido musculo esqueletico</string>
+
+    <string name="l34c1">Serviço de Cirurgia Reparadora</string>
+    <string name="l34c2">Tratamento da lipodistrofia do portador de HIV / AIDS; Tratamento em queimados; Tratamento da lipoatrofia facial do portador de HIV / AIDS</string>
+
+    <string name="l35c1">Serviço de Cirurgia Reparadora</string>
+    <string name="l35c2">Cirurgia torácica</string>
+
+    <string name="l36c1">Serviço de Controle de Tabagismo</string>
+    <string name="l36c2">Abordagem e tratamento do fumante</string>
+
+    <string name="l37c1">Serviço de Cuidados Intermediários</string>
+    <string name="l37c2">NEONATAL CONVENCIONAL; NEONATAL CANGURU; PEDIÁTRICO; ADULTO</string>
+
+    <string name="l38c1">Serviço de Diagnóstico por Anatomia Patológica e/ou Citopatologia</string>
+    <string name="l38c2">Exames anatomopatológicos; Exames citopatológicos; Monitoramento Externo da Qualidade dos Exames Citopatologicos do Colo do Útero</string>
+
+    <string name="l39c1">Serviço de Diagnóstico por Laboratório Clínico</string>
+    <string name="l39c2">Exames Bioquimicos; Exames hematológicos e hemostasia; Exames sorológicos e imunológicos; Exames coprológicos; Exames de uroanálise; Exames hormonais; Exames de  vigilância epidemiológica e  ambiental; Exames toxicológicos ou de monitorização terapêutica; Exames microbiológicos; Exames em outros líquidos biológicos; Exames de genética; Exames para triagem neonatal; Exames imunohematológicos</string>
+
+    <string name="l40c1">Serviço de Diagnóstico por Métodos Gráficos/Dinâmicos</string>
+    <string name="l40c2">Teste Ergométrico; Teste de Holter; Exame Eletrocardiográfico; Exame Eletroencefalográfico; Teste Ergométrico por Telemedicina; Teste Holter por Telemedicina; Exame Eletrocardiografico por Telemedicina; Exame Eletroencefalografico por Telemedicina; Exame Eletroneuromiografia; Exame videoeletroencefalografia; Potenciais Evocados; Potenciais Evocados por Telemedicina</string>
+
+    <string name="l41c1">Serviço de Dispensação de Órteses, Próteses e Materiais Especiais</string>
+    <string name="l41c2">OPM auxiliares de locomoção; OPM ortopédicas; OPM auditivas; OPM oftalmológicas; OPM em gastroenterologia; OPM em urologia; OPM em odontologia; OPM buco-maxilo-facial; Substituição/Troca em órteses/próteses; OPM em queimados; OPM em nefrologia; OPM - Projeto Olhar Brasil; OPM Projeto Olhar Brasil - Programa Saúde na Escola (PSE); OPM Projeto Olhar Brasil - Programa Brasil Alfabetizado (PBA)</string>
+
+    <string name="l42c1">Serviço de Endocrinologia</string>
+    <string name="l42c2">Diagnóstico/Tratamento das doenças endócrinas, metabólicas e nutricionais; Cirurgia de glândulas endócrinas</string>
+
+    <string name="l43c1">Serviço de Endoscopia</string>
+    <string name="l43c2">Do aparelho digestivo; Do aparelho respiratório; Do aparelho urinário; Do aparelho ginecológico</string>
+
+    <string name="l44c1">Serviço de Farmácia</string>
+    <string name="l44c2">Dispensação de Medicamentos do Componente Especializado da Assistência Farmaceutica; Farmácia Popular; Farmácia com manipulação homeopática; Dispensação de medicamentos estratégicos; Dispensação de medicamentos básicos; Farmácia Hospitalar</string>
+
+    <string name="l45c1">Serviço de Fisioterapia</string>
+    <string name="l45c2">Assistência fisioterapêutica em alterações obstétricas, neonatais e uroginecológicas; Assistência fisioterapêutica em alterações oncológicas; Assistência fisioterapêutica em oftalmologia; Assistência fisioterapêutica cardiovasculares e pneumo-funcionais; Assistência fisioterapêutica nas disfunções músculo-esqueléticas (todas as origens); Assistência fisioterapêutica em queimados; Assistência fisioterapêutica nas alterações em neurologia; Diagnóstico cinético funcional</string>
+
+    <string name="l46c1">Serviço de Hemoterapia</string>
+    <string name="l46c2">Procedimentos destinados à obtenção do sangue para fins de assitência hemoterápica; Diagnóstico em hemoterapia; Procedimentos especiais em hemoterapia; Medicina transfusional</string>
+
+    <string name="l47c1">Servico de Laboratório de Histocompatibilidade</string>
+    <string name="l47c2">Exames de histocompatibilidade por meio de sorologia; Exames de histocompatibilidade por sorologia e biologia</string>
+
+    <string name="l48c1">Serviço de Laboratorio de Protese Dentaria</string>
+    <string name="l48c2">Laboratorio Regional de Protese Dentaria</string>
+
+    <string name="l49c1">Serviço de Oftalmologia</string>
+    <string name="l49c2">Diagnóstico em oftalmologia; Tratamento clínico do aparelho da visão; Tratamento cirúrgico do aparelho da visão; Projeto Olhar Brasil; Diagnóstico em Oftalmologia por Telemedicina; Projeto Olhar Brasil - Programa Saúde na Escola (PSE); Projeto Olhar Brasil - Programa Brasil Alfabetizado (PBA)</string>
+
+    <string name="l50c1">Serviço de Oncologia</string>
+    <string name="l50c2">Oncologia pediátrica; Hematologia; Oncologia clínica; Radioterapia; Oncologia cirúrgica</string>
+
+    <string name="l51c1">Serviço de Órteses,Próteses e Materiais Especiais em Reabilitação</string>
+    <string name="l51c2">Dispensação de OPM Auxiliares de Locomoção; Manutenção e Adaptação de OPM Auxiliares de Locomoção; Dispensação de OPM Ortopédica; Manutenção e Adaptação de OPM Ortopédica; Dispensação de OPM Auditiva; Manutenção e Adaptação de OPM Auditiva; Dispensação de OPM Oftalmológica; Manutenção e Adaptação de OPM Oftalmológica; Substitução/Troca de OPM</string>
+
+    <string name="l52c1">Serviço de Pneumologia</string>
+    <string name="l52c2">Tratamento de Doenças das Vias Aéreas Inferiores; Diagnóstico em Pneumologia; Diagnóstico em Pneumologia por Telemedicina</string>
+
+    <string name="l53c1">Serviço de Práticas Integrativas e Complementares</string>
+    <string name="l53c2">Acupuntura; Fitoterapia; Outras técnicas em medicina tradicional chinesa; Práticas corporais/Atividade física; Homeopatia; Termalismo/Crenoterapia; Medicina antroposófica</string>
+
+    <string name="l54c1">Serviço de Reabilitação</string>
+    <string name="l54c2">Reabilitação Visual; Reabilitação Intelectual; Reabilitação Física; Reabilitação visual/mental/múltiplas deficiências; Reabiliatação Auditiva; Oficina Ortopédica Fixa; Oficina Ortopédica Intinerante Terrestre; Oficina Ortopédica; Intinerante Fluvial; Atenção Fonoaudiológica; Atenção Fisioterapeutica; Atenção à Saúde das Pessoas Ostomizadas I; Atenção à Saúde das Pessoas Ostomizadas II</string>
+
+    <string name="l55c1">Serviço de Suporte Nutricional</string>
+    <string name="l55c2">Enteral; Enteral/Parenteral; Enteral/Parenteral, com manipulação/fabricação</string>
+
+    <string name="l56c1">Serviço de Telemedicina</string>
+    <string name="l56c2">Exame eletrocardiográfico por telemedicina</string>
+
+    <string name="l57c1">Serviço de Terapia Intensiva</string>
+    <string name="l57c2">ADULTO; NEONATAL; PEDIÁTRICO; QUEIMADOS; DOENÇA CORONARIANA (UCO)</string>
+
+    <string name="l58c1">Serviço de Traumatologia e Ortopedia</string>
+    <string name="l58c2">Serviço de Traumatologia e Ortopedia; Serviço de Traumatologia e Ortopedia Pediátrica (até 21 anos de idade); Serviço de Traumatologia e Ortopedia de Urgência</string>
+
+    <string name="l59c1">Serviço de Traumato-Ortopedia</string>
+    <string name="l59c2">Diagnóstico e tratamento em cintura escapular; Diagnóstico e tratamento em membros superiores; Diagnóstico e tratamento em coluna vertebral e caixa torácica; Diagnóstico e tratamento em cintura pélvica; Diagnóstico e tratamento em membros inferiores</string>
+
+    <string name="l60c1">Serviço de Triagem Neonatal</string>
+    <string name="l60c2">Tratamento de recém-nascido com hipotireoidismo e fenilcetonuria; Tratamento de recém-nascido com doenças falciformes; Tratamento de recém-nascido com fibrose cística; Tratamento de recém-nascido com outras doenças congênitas; Acompanhamento a pacientes com diagnósticos de Hiperplasia Adrenal Congênita; Acompanhamento a pacientes com diagnósticos de Deficiência Biotinidase</string>
+
+    <string name="l61c1">Serviço de Urgência e Emergência</string>
+    <string name="l61c2">Pronto Socorro Geral; Pronto Socorro Especializado; Pronto Atendimento; Estabilização de paciente crítico/grave; Atendimento ao paciente com Acidente Vascular Cerebral (AVC); Pronto Atendimento Clínico; Pronto Atendimento Pediátrico; Pronto Atendimento Obstétrico; Pronto Atendimento Psiquiátrico; Pronto Atendimento Oftalmológico; Pronto Atendimento Odontológico; Pronto Socorro Pediátrico; Pronto Socorro Obstétrico; Pronto Socorro Cardiovascular; Pronto Socorro Neurologia/Neurocirurgia; Pronto Socorro Traumato-Ortopédico; Pronto Socorro Odontológico; Pronto Socorro Oftalmológico; Pronto Socorro Geral/Clínico</string>
+
+    <string name="l62c1">Serviço de Videolaparoscopia</string>
+    <string name="l62c2">Diagnóstica; Cirúrgica</string>
+
+    <string name="l63c1">Serviço de Vigilância em Saúde</string>
+    <string name="l63c2">Vigilância epidemiológica; Vigilância sanitária; Vigilância ambiental; Núcleo de vigilância hospitalar</string>
+
+    <string name="l64c1">Serviço Móvel de Urgência (exceto SAMU)</string>
+    <string name="l64c2">Transporte terrestre; Transporte aéreo; Transporte marítimo</string>
+
+    <string name="l65c1">Serviço Posto de Coleta de Materiais Biológicos</string>
+    <string name="l65c2">Coleta realizada fora das estrutura laboratorial</string>
+
+    <string name="l66c1">Teleconsultoria</string>
+    <string name="l66c2">Teleconsultoria Assíncrona; Teleconsultoria Síncrona; Segunda Opinião Formativa</string>
+
+    <string name="l67c1">Transplante</string>
+    <string name="l67c2">Rim; Medula óssea; Coração; Pulmão; Córnea / Esclera; Fígado;Pâncreas; Retirada de orgãos; Pele; Válvulas cardíacas; Osteocondroligamentos; Separação, avaliação biomicroscópica e conservação da córnea/esclera; Contagem endotelial corneana; Acompanhamento de paciente transplantado; Ações para doação e captação de órgãos e tecidos; Retirada de globo ocular humano para transplante</string>
+    <string name="msg_info_preferencias">Em sua primeira visualização do aplicativo foi utilizada a sua posição geográfica atual para definir o município onde você está localizado neste momento. É interessante que você selecione na lista acima outros municípios de seu interesse para que apareçam nos resultados de suas buscas por estabelecimentos.</string>
+
+</resources>

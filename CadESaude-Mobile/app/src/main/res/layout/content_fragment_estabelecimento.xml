@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrool_estabelecimento"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/text_margin">
+
+        <ImageButton
+            android:id="@+id/icone_razao_social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_briefcase_grey600_24dp" />
+
+        <TextView
+            android:id="@+id/label_razao_social_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/icone_razao_social"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@+id/icone_razao_social"
+            android:layout_toRightOf="@+id/icone_razao_social"
+            android:layout="@id/icone_razao_social"
+            android:lines="2"
+            android:text="Razão Social:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_nome_fantasia_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_razao_social_abrir_estabelecimento"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/label_razao_social_abrir_estabelecimento"
+            android:layout_below="@+id/label_razao_social_abrir_estabelecimento"
+            android:layout_marginBottom="16dp"
+            android:layout="@id/icone_razao_social"
+            android:lines="2"
+            android:text="Nome Fantasia:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/icone_tipo_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/icone_razao_social"
+            android:layout_alignParentLeft="true"
+            android:layout_alignStart="@+id/icone_razao_social"
+            android:layout_below="@+id/label_nome_fantasia_abrir_estabelecimento"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_stethoscope_grey600_24dp" />
+
+        <TextView
+            android:id="@+id/label_tipo_estabelecimento_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/label_nome_fantasia_abrir_estabelecimento"
+            android:layout_marginBottom="16dp"
+            android:layout_toRightOf="@id/icone_tipo_estabelecimento"
+            android:background="@android:color/transparent"
+            android:text="Tipo de estabelecimento:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/icone_endereco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_tipo_estabelecimento_abrir_estabelecimento"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_map_marker_grey600_24dp" />
+
+        <TextView
+            android:id="@+id/label_logradouro_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_complemento_abrir_estabelecimento"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/label_complemento_abrir_estabelecimento"
+            android:layout_alignTop="@+id/icone_endereco"
+            android:layout_marginBottom="4dp"
+            android:text="Logradouro:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_numero_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_logradouro_abrir_estabelecimento"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/label_logradouro_abrir_estabelecimento"
+            android:layout_below="@+id/label_logradouro_abrir_estabelecimento"
+            android:layout_marginBottom="4dp"
+            android:text="Número:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_complemento_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_municipio_abrir_estabelecimento"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/label_municipio_abrir_estabelecimento"
+            android:layout_below="@+id/label_numero_abrir_estabelecimento"
+            android:layout_marginBottom="4dp"
+            android:text="Complemento:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_bairro_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_complemento_abrir_estabelecimento"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/label_complemento_abrir_estabelecimento"
+            android:layout_below="@+id/label_complemento_abrir_estabelecimento"
+            android:layout_marginBottom="4dp"
+            android:text="Bairro:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_cep_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/label_bairro_abrir_estabelecimento"
+            android:layout_alignParentRight="true"
+            android:layout_alignStart="@+id/label_bairro_abrir_estabelecimento"
+            android:layout_below="@+id/label_bairro_abrir_estabelecimento"
+            android:layout_marginBottom="4dp"
+            android:text="CEP:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_municipio_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/label_cep_abrir_estabelecimento"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@+id/icone_endereco"
+            android:layout_toRightOf="@+id/icone_endereco"
+            android:text="Município:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/label_estado_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/label_municipio_abrir_estabelecimento"
+            android:layout_marginBottom="16dp"
+            android:layout_toEndOf="@+id/icone_endereco"
+            android:layout_toRightOf="@+id/icone_endereco"
+            android:text="Estado:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageButton
+            android:id="@+id/icone_telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/label_estado_abrir_estabelecimento"
+            android:layout_marginRight="16dp"
+            android:background="@android:color/transparent"
+            android:paddingBottom="16dp"
+            android:src="@drawable/ic_phone_grey600_24dp" />
+
+        <TextView
+            android:id="@+id/label_telefone_abrir_estabelecimento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/icone_telefone"
+            android:layout_below="@id/label_estado_abrir_estabelecimento"
+            android:layout_toEndOf="@+id/icone_telefone"
+            android:layout_toRightOf="@+id/icone_telefone"
+            android:text="Telefone:"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </RelativeLayout>
+</ScrollView>

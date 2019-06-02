@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_primeira_config_activity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.jucemar_dimon.cadesaude.PrimeiraConfiguracaoActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/barra_progresso_primeira_conf_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/background_erro_primeira_conf_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/crosshairs"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/label_erro_primeira_config_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="@string/txt_erro_gps"
+            android:textAppearance="@android:style/TextAppearance.Large"
+            android:textColor="#BDBDBD"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

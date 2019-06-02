@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.jucemar_dimon.cadesaude"
+    android:versionCode="1"
+    android:versionName="0.01">
+
+    <uses-feature
+        android:name="android.hardware.screen.portrait"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/MeuTemaMaterial">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".PreferenciasActivity"
+            android:label="@string/titulo_config"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/MeuTemaMaterial.Prefencias" />
+        <activity
+            android:name=".AjudaActivity"
+            android:label="@string/titulo_ajuda"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SobreActivity"
+            android:label="@string/titulo_sobre"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BuscaGPSActivity"
+            android:label="@string/titulo_busca_gps_activity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".EstabelecimentoActivity"
+            android:label="@string/title_activity_estabelecimento"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <meta-data
+            android:name="com.google.adroid.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <activity
+            android:name=".BuscaGeralActivity"
+            android:label="@string/title_activity_busca_geral"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrimeirosPassosActivity"
+            android:label="@string/title_activity_primeiros_passos"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".PrimeiraConfiguracaoActivity"
+            android:label="@string/titulo_config"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/MeuTemaMaterial.Prefencias" />
+        <activity
+            android:name=".AjudaTiposEstabelecimentosActivity"
+            android:label="@string/titulo_actvt_ajuda_estabelecimentos"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AjudaTiposDeServicosActivity"
+            android:label="@string/titulo_actvt_ajuda_servicos"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TelaInicialActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
